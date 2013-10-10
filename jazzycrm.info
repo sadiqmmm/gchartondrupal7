@@ -1,0 +1,48 @@
+name = Jazzy CRM
+description = Jazzy CRM Powered by <a href="http://jazzymarketing.com" target="_blank">JazzyMarketing.com</a>.
+version = 1.0
+core = 7.x
+base theme = skeletontheme
+stylesheets[all][] = css/skeleton.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/buttons.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = color/colors.css
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = css/customal.css
+ 
+scripts[] = js/jazzycustom.js
+ 
+
+regions[header_top_left] = Header top left
+regions[header_top_right] = Header top right
+
+regions[header_right] = Header right
+regions[header] = Header
+regions[highlighted] = Highlighted
+
+regions[top_feature_left] = Top featured left
+regions[top_feature_right] = Top featured right
+
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[featured_left] = Featured left
+regions[featured_right] = Featured right
+
+regions[footer_first] = Footer first
+regions[footer_second] = Footer second
+regions[footer_third] = Footer third
+regions[footer] = Footer
+
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+settings[responsive_menu_state]= 1
+settings[responsive_menu_switchwidth]='760'
+settings[responsive_menu_topoptiontext]= 'Select a page'
+ 
+ 
+
